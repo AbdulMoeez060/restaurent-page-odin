@@ -1,4 +1,5 @@
 import './styles/main.css';
+import home from './pages/home-page';
 
 const website = (()=>{
     var content = document.querySelector('.content');
@@ -36,6 +37,8 @@ const website = (()=>{
     }
 
     addNav()
+
+    content.appendChild(home());
     
 
-})()
+})();
