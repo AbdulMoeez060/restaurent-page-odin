@@ -20,8 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,500&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    color: red;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AAAA;IACI,UAAU;AACd","sourcesContent":["*{\r\n    color: red;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n.logo{\r\n    font-size: 40px;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    height: 10vh;\r\n    position: fixed;\r\n    color: #fff;\r\n    background:black;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button{\r\n    width: 80px;\r\n    height: 50px;\r\n    border: none;\r\n    background-color: black;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;IACI,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;AACA;IACI,eAAe;IACf,mBAAmB;IACnB,eAAe;AACnB;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,6BAA6B;IAC7B,mBAAmB;IACnB,YAAY;IACZ,eAAe;IACf,WAAW;IACX,gBAAgB;;AAEpB;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,SAAS;AACb;AACA;IACI,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,uBAAuB;IACvB,gBAAgB;IAChB,WAAW;IACX,eAAe;AACnB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,500&display=swap');\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n.logo{\r\n    font-size: 40px;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    height: 10vh;\r\n    position: fixed;\r\n    color: #fff;\r\n    background:black;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button{\r\n    width: 80px;\r\n    height: 50px;\r\n    border: none;\r\n    background-color: black;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -613,9 +614,47 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 
 
-console.log('fss')
+const website = (()=>{
+    var content = document.querySelector('.content');
+
+    function addNav(){
+
+        var nav = document.createElement('div');
+        nav.classList.add('nav');
+        var logo = document.createElement('p');
+        logo.classList.add('logo')
+        logo.textContent = "Odin's Inn"
+
+        var list = document.createElement('ul');
+        var links = ['Home','Menu','About']
+        
+
+        for (let i = 0; i < 3; i++) {
+            let line = document.createElement('li');
+            let button =  document.createElement('button');
+            button.classList.add(links[i])
+            let text = document.createTextNode(links[i]);
+            button.appendChild(text);
+            line.appendChild(button);
+            list.appendChild(line);
+        }
+        
+        
+
+
+        nav.appendChild(logo);
+        nav.appendChild(list);
+
+        content.appendChild(nav);
+        
+    }
+
+    addNav()
+    
+
+})()
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle515c5b428660ba81a74c.js.map
+//# sourceMappingURL=bundlee712b216e4c55d3681a7.js.map
