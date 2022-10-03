@@ -8,6 +8,7 @@ const website = (()=>{
         var nav = document.createElement('div');
         nav.classList.add('nav');
         var logo = document.createElement('p');
+        logo.classList.add('logo')
         logo.textContent = "Odin's Inn"
 
         var list = document.createElement('ul');
