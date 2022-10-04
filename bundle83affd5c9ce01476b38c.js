@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;IACI,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,mBAAmB;IACnB,eAAe;IACf,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,6BAA6B;IAC7B,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,WAAW;;AAEf;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,SAAS;AACb;AACA;IACI,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,6BAA6B;AACjC;;AAEA;IACI,yDAA2C;IAC3C,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;IAC1B,WAAW;IACX,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,SAAS;AACb;;AAEA;IACI,8BAA8B;IAC9B,gBAAgB;IAChB,gBAAgB;AACpB;AACA;IACI,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,4CAA4C;IAC5C,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,gBAAgB;AACpB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url('../assets/home.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n.active{\r\n    display: flex;\r\n}\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;IACI,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,mBAAmB;IACnB,eAAe;IACf,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,6BAA6B;IAC7B,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,WAAW;;AAEf;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,SAAS;AACb;AACA;IACI,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,6BAA6B;AACjC;;AAEA;IACI,yDAA2C;IAC3C,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;IAC1B,WAAW;IACX,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,SAAS;AACb;AACA;IACI,aAAa;AACjB;;AAEA;IACI,8BAA8B;IAC9B,gBAAgB;IAChB,gBAAgB;AACpB;AACA;IACI,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,4CAA4C;IAC5C,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,gBAAgB;AACpB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url('../assets/home.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n.active{\r\n    display: flex;\r\n}\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -582,8 +582,11 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "hideHome": () => (/* binding */ hideHome),
+/* harmony export */   "home": () => (/* binding */ home),
+/* harmony export */   "showHome": () => (/* binding */ showHome)
 /* harmony export */ });
+
 
 const home = ()=>{
     var div = document.createElement('div');
@@ -607,7 +610,18 @@ const home = ()=>{
 
 }
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (home);
+function hideHome(){
+    var home = document.querySelector('.home');
+    home.classList.remove('active');
+}
+function showHome(){
+    var home = document.querySelector('.home');
+    home.classList.add('active');
+}
+
+
+
+
 
 /***/ }),
 
@@ -802,9 +816,17 @@ const website = (()=>{
         
     }
 
-    addNav()
+    function initializeWebsite(){
 
-    content.appendChild((0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__["default"])());
+        addNav()
+    
+        content.appendChild((0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.home)());
+
+        (0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.showHome)();
+    }
+
+    initializeWebsite();
+
     
 
 })();
@@ -812,4 +834,4 @@ const website = (()=>{
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle97c7016b2ac2fcaa79cd.js.map
+//# sourceMappingURL=bundle83affd5c9ce01476b38c.js.map
