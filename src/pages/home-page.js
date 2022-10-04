@@ -1,4 +1,5 @@
 
+
 const home = ()=>{
     var div = document.createElement('div');
     div.classList.add('home');
@@ -21,4 +22,15 @@ const home = ()=>{
 
 }
 
-export default home;
+function hideHome(){
+    var home = document.querySelector('.home');
+    home.classList.remove('active');
+}
+function showHome(){
+    var home = document.querySelector('.home');
+    home.classList.add('active');
+}
+
+
+
+export {home,hideHome,showHome};
