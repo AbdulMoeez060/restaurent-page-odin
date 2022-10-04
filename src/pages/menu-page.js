@@ -130,4 +130,13 @@ function menu(){
     return menuPage
 }
 
-export default menu;
+function hideMenu(){
+    var menu = document.querySelector('.menu');
+    menu.classList.remove('active');
+}
+function showMenu(){
+    var menu = document.querySelector('.menu');
+    menu.classList.add('active');
+}
+
+export {menu,showMenu,hideMenu};

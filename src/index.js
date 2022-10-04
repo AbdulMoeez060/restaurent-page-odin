@@ -1,6 +1,6 @@
 import './styles/main.css';
 import {home,hideHome,showHome} from './pages/home-page';
-import menu from './pages/menu-page';
+import {menu,showMenu,hideMenu} from './pages/menu-page';
 
 const website = (()=>{
     var content = document.querySelector('.content');
@@ -45,6 +45,7 @@ const website = (()=>{
 
         //showHome();
         content.appendChild(menu())
+        showMenu()
     }
 
     initializeWebsite();

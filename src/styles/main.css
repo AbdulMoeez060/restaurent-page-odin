@@ -57,9 +57,7 @@ ul>li>button, .home>button{
     align-items: center;
     gap: 10px;
 }
-.active{
-    display: flex;
-}
+
 
 .main-text{
     font-family: 'Kristi', cursive;
@@ -82,7 +80,7 @@ ul>li>button, .home>button{
 .menu{
     background-color: white;
     padding-top: 15vh;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -103,4 +101,9 @@ ul>li>button, .home>button{
     font-size: 60px;
     font-weight: 400;
     margin-bottom: 20px;
+}
+
+
+.active{
+    display: flex;
 }
