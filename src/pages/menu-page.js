@@ -86,6 +86,41 @@ const menuItems = [
 function menu(){
     var menuPage = document.createElement('div');
     menuPage.classList.add('menu')
+
+    for (let i = 0; i < menuItems.length; i++) {
+        
+        let category = document.createElement('h3');
+        category.classList.add('category');
+        category.textContent = menuItems[i].category;
+
+
+        for (let j = 0; j <  menuItems[i].items.length; j++) {
+            
+            let name =  document.createElement('h4');
+            name.textContent = menuItems[i].items[j].name;
+            name.classList.add('item-name');
+
+            let des = document.createElement('p');
+            des.textContent = menuItems[i].items[j].desc;
+            des.classList.add('item-desc');
+
+
+            let price = document.createElement('p');
+            price.textContent = menuItems[i].items[j].price;
+            price.classList.add('item-price');
+
+            category.appendChild(name);
+            category.appendChild(des);
+            category.appendChild(price);
+
+        }
+
+        menuPage.appendChild(category);
+        
+    }
+
+
+
     return menuPage
 }
 
