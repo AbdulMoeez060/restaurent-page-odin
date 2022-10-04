@@ -44,11 +44,13 @@ const website = (()=>{
     
         content.appendChild(home());
 
-        //showHome();
+        showHome();
         content.appendChild(menu())
         //showMenu()
         // var nav =  document.querySelector('.nav');
         // nav.classList.add('nav-color')
+
+        //content.appendChild(about());
     }
 
     initializeWebsite();
