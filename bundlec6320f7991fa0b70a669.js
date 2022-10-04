@@ -27,7 +27,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n.active{\r\n    display: flex;\r\n}\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;IACI,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,mBAAmB;IACnB,eAAe;IACf,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,6BAA6B;IAC7B,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,WAAW;;AAEf;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,SAAS;AACb;AACA;IACI,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,6BAA6B;AACjC;;AAEA;IACI,yDAA2C;IAC3C,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;IAC1B,WAAW;IACX,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,SAAS;AACb;AACA;IACI,aAAa;AACjB;;AAEA;IACI,8BAA8B;IAC9B,gBAAgB;IAChB,gBAAgB;AACpB;AACA;IACI,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,4CAA4C;IAC5C,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,gBAAgB;AACpB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url('../assets/home.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n.active{\r\n    display: flex;\r\n}\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    background-color: rgba(8, 30, 73, 0.225);\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.menu{\r\n    background-color: white;\r\n    padding-top: 15vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    gap: 50px;\r\n    margin-bottom: 100px;\r\n    text-align: center;\r\n}\r\n\r\n.category{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n.category>h2{\r\n    font-family: 'Kristi', cursive;\r\n    color: #a68b7c;\r\n    font-size: 60px;\r\n    font-weight: 400;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.active{\r\n    display: flex;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;IACI,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,mBAAmB;IACnB,eAAe;IACf,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,6BAA6B;IAC7B,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,WAAW;IACX,wCAAwC;;AAE5C;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,SAAS;AACb;AACA;IACI,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,6BAA6B;AACjC;;AAEA;IACI,yDAA2C;IAC3C,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;IAC1B,WAAW;IACX,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,SAAS;AACb;;;AAGA;IACI,8BAA8B;IAC9B,gBAAgB;IAChB,gBAAgB;AACpB;AACA;IACI,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,4CAA4C;IAC5C,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,uBAAuB;IACvB,iBAAiB;IACjB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,2BAA2B;IAC3B,SAAS;IACT,oBAAoB;IACpB,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,SAAS;AACb;;AAEA;IACI,8BAA8B;IAC9B,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,mBAAmB;AACvB;;;AAGA;IACI,aAAa;AACjB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    background-color: rgba(8, 30, 73, 0.225);\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url('../assets/home.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.menu{\r\n    background-color: white;\r\n    padding-top: 15vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    gap: 50px;\r\n    margin-bottom: 100px;\r\n    text-align: center;\r\n}\r\n\r\n.category{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n.category>h2{\r\n    font-family: 'Kristi', cursive;\r\n    color: #a68b7c;\r\n    font-size: 60px;\r\n    font-weight: 400;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.active{\r\n    display: flex;\r\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -625,6 +625,163 @@ function showHome(){
 
 /***/ }),
 
+/***/ "./src/pages/menu-page.js":
+/*!********************************!*\
+  !*** ./src/pages/menu-page.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "hideMenu": () => (/* binding */ hideMenu),
+/* harmony export */   "menu": () => (/* binding */ menu),
+/* harmony export */   "showMenu": () => (/* binding */ showMenu)
+/* harmony export */ });
+
+const menuItems = [
+    {
+        category: 'Pizza',
+        items:[
+            {
+                name: 'Chicken Tikka',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Bihari Kebab',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Chicken Fajita',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Pepporoni',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Tex-Mex',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Odin Special',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+        ]
+    },
+    {
+        category: 'Burgers',
+        items: [
+            {
+                name: 'Cheesy Chicken',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Beast Burger',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Daddy of All Burgers',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Odins Special',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+        ]
+    },
+    {
+        category :'Drinks',
+        items:[
+            {
+                name: 'Coke',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Sprite',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+            {
+                name: 'Fanta',
+                desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+                price : "25$"
+            },
+        ]
+    }
+]
+
+
+function menu(){
+    var menuPage = document.createElement('div');
+    menuPage.classList.add('menu')
+
+    for (let i = 0; i < menuItems.length; i++) {
+        
+        let category = document.createElement('div');
+        category.classList.add('category');
+        let text = document.createElement('h2');
+        text.textContent = menuItems[i].category;
+        category.appendChild(text);
+
+
+        for (let j = 0; j <  menuItems[i].items.length; j++) {
+
+            let item = document.createElement('div');
+            item.classList.add('item');
+            
+            let name =  document.createElement('h4');
+            name.textContent = menuItems[i].items[j].name;
+            name.classList.add('item-name');
+
+            let des = document.createElement('p');
+            des.textContent = menuItems[i].items[j].desc;
+            des.classList.add('item-desc');
+
+
+            let price = document.createElement('p');
+            price.textContent = menuItems[i].items[j].price;
+            price.classList.add('item-price');
+
+            item.appendChild(name);
+            item.appendChild(des);
+            item.appendChild(price);
+            category.appendChild(item)
+
+        }
+
+        menuPage.appendChild(category);
+        
+    }
+
+
+
+    return menuPage
+}
+
+function hideMenu(){
+    var menu = document.querySelector('.menu');
+    menu.classList.remove('active');
+}
+function showMenu(){
+    var menu = document.querySelector('.menu');
+    menu.classList.add('active');
+}
+
+
+
+/***/ }),
+
 /***/ "./src/assets/home.jpg":
 /*!*****************************!*\
   !*** ./src/assets/home.jpg ***!
@@ -778,6 +935,8 @@ var __webpack_exports__ = {};
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _pages_home_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/home-page */ "./src/pages/home-page.js");
+/* harmony import */ var _pages_menu_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/menu-page */ "./src/pages/menu-page.js");
+
 
 
 
@@ -822,7 +981,9 @@ const website = (()=>{
     
         content.appendChild((0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.home)());
 
-        (0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.showHome)();
+        //showHome();
+        content.appendChild((0,_pages_menu_page__WEBPACK_IMPORTED_MODULE_2__.menu)())
+        ;(0,_pages_menu_page__WEBPACK_IMPORTED_MODULE_2__.showMenu)()
     }
 
     initializeWebsite();
@@ -830,8 +991,9 @@ const website = (()=>{
     
 
 })();
+
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundle83affd5c9ce01476b38c.js.map
+//# sourceMappingURL=bundlec6320f7991fa0b70a669.js.map
