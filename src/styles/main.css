@@ -135,7 +135,7 @@ ul>li>button:hover,ul>li>button.activate{
     font-weight: bold;
 }
 .about{
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;

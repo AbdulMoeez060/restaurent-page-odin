@@ -12,6 +12,7 @@ const home = ()=>{
 
     var button = document.createElement('button');
     button.textContent = 'See Menu'
+    button.classList.add('MenuButton');
 
 
     div.appendChild(textHeader);
@@ -24,12 +25,13 @@ const home = ()=>{
 
 function hideHome(){
     var home = document.querySelector('.home');
+    var homeButton = document.querySelectorAll('.HomeButton');
+    homeButton[1].classList.remove('activate');
     home.classList.remove('active');
 }
 function showHome(){
     var home = document.querySelector('.home');
-    var nav =  document.querySelector('.nav');
-    nav.classList.remove('nav-color')
+    
     home.classList.add('active');
 }
 

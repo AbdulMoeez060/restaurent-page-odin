@@ -21,6 +21,8 @@ function about(){
 
 function hideAbout(){
     var about = document.querySelector('.about');
+    var aboutButton = document.querySelector('.AboutButton');
+    aboutButton.classList.remove('activate');
     about.classList.remove('active');
 }
 function showAbout(){

@@ -132,6 +132,8 @@ function menu(){
 
 function hideMenu(){
     var menu = document.querySelector('.menu');
+    var menuButton = document.querySelector('.MenuButton');
+    menuButton.classList.remove('activate');
     menu.classList.remove('active');
 }
 function showMenu(){
