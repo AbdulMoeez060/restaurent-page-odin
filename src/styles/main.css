@@ -24,7 +24,7 @@
     align-items: center;
     position: fixed;
     height: 10vh;
-    color: #fff;
+    color: #cf8a62;
     background-color: rgba(8, 30, 73, 0.225);
     
 }
@@ -42,6 +42,13 @@ ul>li>button, .home>button{
     color: #fff;
     cursor: pointer;
     background-color: transparent;
+}
+
+ul>li>button:hover,ul>li>button.activate{
+    color: #cf8a62;
+    transform: translateY(-8px);
+    border-bottom:3px solid #cf8a62 ;
+    transition: all 0.7s;
 }
 
 .home{
@@ -63,6 +70,7 @@ ul>li>button, .home>button{
     font-family: 'Kristi', cursive;
     font-size: 120px;
     font-weight: 400;
+    color: #cf8a62
 }
 .text{
     letter-spacing: 2px;
@@ -70,11 +78,15 @@ ul>li>button, .home>button{
 }
 
 .home>button{
-    background-color: rgba(255, 255, 255, 0.838);
-    color: black;
-    width: 120px;
+    background-color: #22486D;
+    color: white;
+    width: 150px;
     border-radius: 30px;
     margin-top: 20px;
+}
+
+.home>button:hover{
+    filter: brightness(60%);
 }
 
 .menu{
@@ -142,6 +154,3 @@ ul>li>button, .home>button{
     display: flex;
 }
 
-.nav-color{
-    color: #cf8a62;
-}
