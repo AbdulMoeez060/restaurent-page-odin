@@ -28,6 +28,8 @@ function hideHome(){
 }
 function showHome(){
     var home = document.querySelector('.home');
+    var nav =  document.querySelector('.nav');
+    nav.classList.remove('nav-color')
     home.classList.add('active');
 }
 

@@ -107,3 +107,8 @@ ul>li>button, .home>button{
 .active{
     display: flex;
 }
+
+.nav-color{
+    color: #a68b7c;
+    background-color: black;
+}

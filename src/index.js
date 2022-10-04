@@ -1,6 +1,7 @@
 import './styles/main.css';
 import {home,hideHome,showHome} from './pages/home-page';
 import {menu,showMenu,hideMenu} from './pages/menu-page';
+import { about,showAbout,hideAbout } from './pages/contact-page';
 
 const website = (()=>{
     var content = document.querySelector('.content');
@@ -45,7 +46,9 @@ const website = (()=>{
 
         //showHome();
         content.appendChild(menu())
-        showMenu()
+        //showMenu()
+        // var nav =  document.querySelector('.nav');
+        // nav.classList.add('nav-color')
     }
 
     initializeWebsite();
