@@ -22,12 +22,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/home.jpg */ "./src/assets/home.jpg"), __webpack_require__.b);
+var ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../assets/home1.jpg */ "./src/assets/home1.jpg"), __webpack_require__.b);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    background-color: rgba(8, 30, 73, 0.225);\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.menu{\r\n    background-color: white;\r\n    padding-top: 15vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    gap: 50px;\r\n    margin-bottom: 100px;\r\n    text-align: center;\r\n}\r\n\r\n.category{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n.category>h2{\r\n    font-family: 'Kristi', cursive;\r\n    color: #a68b7c;\r\n    font-size: 60px;\r\n    font-weight: 400;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.active{\r\n    display: flex;\r\n}", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;IACI,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,mBAAmB;IACnB,eAAe;IACf,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,6BAA6B;IAC7B,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,WAAW;IACX,wCAAwC;;AAE5C;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,SAAS;AACb;AACA;IACI,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,6BAA6B;AACjC;;AAEA;IACI,yDAA2C;IAC3C,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;IAC1B,WAAW;IACX,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,SAAS;AACb;;;AAGA;IACI,8BAA8B;IAC9B,gBAAgB;IAChB,gBAAgB;AACpB;AACA;IACI,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,4CAA4C;IAC5C,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,uBAAuB;IACvB,iBAAiB;IACjB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,2BAA2B;IAC3B,SAAS;IACT,oBAAoB;IACpB,kBAAkB;AACtB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,SAAS;AACb;;AAEA;IACI,8BAA8B;IAC9B,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,mBAAmB;AACvB;;;AAGA;IACI,aAAa;AACjB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #fff;\r\n    background-color: rgba(8, 30, 73, 0.225);\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\n.home{\r\n    background-image: url('../assets/home.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: rgba(255, 255, 255, 0.838);\r\n    color: black;\r\n    width: 120px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.menu{\r\n    background-color: white;\r\n    padding-top: 15vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    gap: 50px;\r\n    margin-bottom: 100px;\r\n    text-align: center;\r\n}\r\n\r\n.category{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n.category>h2{\r\n    font-family: 'Kristi', cursive;\r\n    color: #a68b7c;\r\n    font-size: 60px;\r\n    font-weight: 400;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n\r\n.active{\r\n    display: flex;\r\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #cf8a62;\r\n    background-color: rgba(8, 30, 73, 0.225);\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\nul>li>button:hover,ul>li>button.activate{\r\n    color: #cf8a62;\r\n    transform: translateY(-8px);\r\n    border-bottom:3px solid #cf8a62 ;\r\n    transition: all 0.7s;\r\n}\r\n\r\n.home{\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n    color: #cf8a62\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: #22486D;\r\n    color: white;\r\n    width: 150px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.home>button:hover{\r\n    filter: brightness(60%);\r\n}\r\n\r\n.menu{\r\n    background-color: #22486D;\r\n\r\n    padding-top: 15vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    gap: 50px;\r\n    padding-bottom: 100px;\r\n    text-align: center;\r\n    color: lightgray;\r\n}\r\n\r\n\r\n.category{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n.category>h2{\r\n    font-family: 'Kristi', cursive;\r\n    color: #cf8a62;\r\n    font-size: 60px;\r\n    font-weight: 400;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.item{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 5px;\r\n}\r\n.item>.item-name{\r\n    font-size: 26px;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.item> .item-desc{\r\n    letter-spacing: 1.5px;\r\n}\r\n.item>.item-price{\r\n    font-weight: bold;\r\n}\r\n.about{\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 100vh;\r\n    background-color: #22486D;\r\n}\r\n.about>.main-text{\r\n    color: #cf8a62;\r\n\r\n}\r\n.about>.text{\r\n    color: white;\r\n}\r\n\r\n.active{\r\n    display: flex;\r\n}\r\n\r\n", "",{"version":3,"sources":["webpack://./src/styles/main.css"],"names":[],"mappings":"AACA;IACI,SAAS;IACT,UAAU;IACV,kCAAkC;AACtC;;AAEA;IACI,kBAAkB;AACtB;;AAEA;IACI,eAAe;IACf,gBAAgB;IAChB,mBAAmB;IACnB,eAAe;IACf,sCAAsC;AAC1C;;AAEA;IACI,aAAa;IACb,YAAY;IACZ,6BAA6B;IAC7B,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,cAAc;IACd,wCAAwC;;AAE5C;;AAEA;IACI,gBAAgB;IAChB,aAAa;IACb,SAAS;AACb;AACA;IACI,WAAW;IACX,YAAY;IACZ,YAAY;IACZ,gBAAgB;IAChB,WAAW;IACX,eAAe;IACf,6BAA6B;AACjC;;AAEA;IACI,cAAc;IACd,2BAA2B;IAC3B,gCAAgC;IAChC,oBAAoB;AACxB;;AAEA;IACI,yDAA4C;IAC5C,4BAA4B;IAC5B,qBAAqB;IACrB,0BAA0B;IAC1B,WAAW;IACX,aAAa;IACb,aAAa;IACb,sBAAsB;IACtB,uBAAuB;IACvB,mBAAmB;IACnB,SAAS;AACb;;;AAGA;IACI,8BAA8B;IAC9B,gBAAgB;IAChB,gBAAgB;IAChB;AACJ;AACA;IACI,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,mBAAmB;IACnB,gBAAgB;AACpB;;AAEA;IACI,uBAAuB;AAC3B;;AAEA;IACI,yBAAyB;;IAEzB,iBAAiB;IACjB,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,2BAA2B;IAC3B,SAAS;IACT,qBAAqB;IACrB,kBAAkB;IAClB,gBAAgB;AACpB;;;AAGA;IACI,aAAa;IACb,sBAAsB;IACtB,SAAS;AACb;;AAEA;IACI,8BAA8B;IAC9B,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,mBAAmB;AACvB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,QAAQ;AACZ;AACA;IACI,eAAe;IACf,sCAAsC;AAC1C;;AAEA;IACI,qBAAqB;AACzB;AACA;IACI,iBAAiB;AACrB;AACA;IACI,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,uBAAuB;IACvB,aAAa;IACb,yBAAyB;AAC7B;AACA;IACI,cAAc;;AAElB;AACA;IACI,YAAY;AAChB;;AAEA;IACI,aAAa;AACjB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Kristi&family=Poppins:wght@300;400;500;600;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,500&display=swap');\r\n*{\r\n    margin: 0;\r\n    padding: 0;\r\n    font-family: 'Poppins', sans-serif;\r\n}\r\n\r\n.content{\r\n    position: relative;\r\n}\r\n\r\n.logo{\r\n    font-size: 44px;\r\n    font-weight: 700;\r\n    margin-left: -150px;\r\n    cursor: pointer;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.nav{\r\n    display: flex;\r\n    width: 100vw;\r\n    justify-content: space-around;\r\n    align-items: center;\r\n    position: fixed;\r\n    height: 10vh;\r\n    color: #cf8a62;\r\n    background-color: rgba(8, 30, 73, 0.225);\r\n    \r\n}\r\n\r\nul{\r\n    list-style: none;\r\n    display: flex;\r\n    gap: 35px;\r\n}\r\nul>li>button, .home>button{\r\n    width: 90px;\r\n    height: 50px;\r\n    border: none;\r\n    font-size: large;\r\n    color: #fff;\r\n    cursor: pointer;\r\n    background-color: transparent;\r\n}\r\n\r\nul>li>button:hover,ul>li>button.activate{\r\n    color: #cf8a62;\r\n    transform: translateY(-8px);\r\n    border-bottom:3px solid #cf8a62 ;\r\n    transition: all 0.7s;\r\n}\r\n\r\n.home{\r\n    background-image: url('../assets/home1.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: auto;\r\n    background-size: 100% 100%;\r\n    color: #fff;\r\n    height: 100vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    justify-content: center;\r\n    align-items: center;\r\n    gap: 10px;\r\n}\r\n\r\n\r\n.main-text{\r\n    font-family: 'Kristi', cursive;\r\n    font-size: 120px;\r\n    font-weight: 400;\r\n    color: #cf8a62\r\n}\r\n.text{\r\n    letter-spacing: 2px;\r\n    font-weight: 500;\r\n}\r\n\r\n.home>button{\r\n    background-color: #22486D;\r\n    color: white;\r\n    width: 150px;\r\n    border-radius: 30px;\r\n    margin-top: 20px;\r\n}\r\n\r\n.home>button:hover{\r\n    filter: brightness(60%);\r\n}\r\n\r\n.menu{\r\n    background-color: #22486D;\r\n\r\n    padding-top: 15vh;\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: flex-start;\r\n    gap: 50px;\r\n    padding-bottom: 100px;\r\n    text-align: center;\r\n    color: lightgray;\r\n}\r\n\r\n\r\n.category{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n.category>h2{\r\n    font-family: 'Kristi', cursive;\r\n    color: #cf8a62;\r\n    font-size: 60px;\r\n    font-weight: 400;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.item{\r\n    display: flex;\r\n    flex-direction: column;\r\n    gap: 5px;\r\n}\r\n.item>.item-name{\r\n    font-size: 26px;\r\n    font-family: 'Dancing Script', cursive;\r\n}\r\n\r\n.item> .item-desc{\r\n    letter-spacing: 1.5px;\r\n}\r\n.item>.item-price{\r\n    font-weight: bold;\r\n}\r\n.about{\r\n    display: none;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    justify-content: center;\r\n    height: 100vh;\r\n    background-color: #22486D;\r\n}\r\n.about>.main-text{\r\n    color: #cf8a62;\r\n\r\n}\r\n.about>.text{\r\n    color: white;\r\n}\r\n\r\n.active{\r\n    display: flex;\r\n}\r\n\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -574,6 +574,54 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/pages/contact-page.js":
+/*!***********************************!*\
+  !*** ./src/pages/contact-page.js ***!
+  \***********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "about": () => (/* binding */ about),
+/* harmony export */   "hideAbout": () => (/* binding */ hideAbout),
+/* harmony export */   "showAbout": () => (/* binding */ showAbout)
+/* harmony export */ });
+
+
+function about(){
+    var div = document.createElement('div');
+    div.classList.add('about')
+
+    var textHeader = document.createElement('h2');
+    textHeader.textContent = 'Odins Inn';
+    textHeader.classList.add('main-text');
+    var text = document.createElement('p');
+    text.textContent = "From Odin's Shaggy Beard to Freya's saggy *** and Thor's Hammer, You can find anything you desir.";
+    text.classList.add('text');
+
+
+    div.appendChild(textHeader);
+    div.appendChild(text);
+
+    return div;
+    
+}
+
+function hideAbout(){
+    var about = document.querySelector('.about');
+    var aboutButton = document.querySelector('.AboutButton');
+    aboutButton.classList.remove('activate');
+    about.classList.remove('active');
+}
+function showAbout(){
+    var about = document.querySelector('.about');
+    about.classList.add('active');
+}
+
+
+
+/***/ }),
+
 /***/ "./src/pages/home-page.js":
 /*!********************************!*\
   !*** ./src/pages/home-page.js ***!
@@ -600,6 +648,7 @@ const home = ()=>{
 
     var button = document.createElement('button');
     button.textContent = 'See Menu'
+    button.classList.add('MenuButton');
 
 
     div.appendChild(textHeader);
@@ -612,10 +661,13 @@ const home = ()=>{
 
 function hideHome(){
     var home = document.querySelector('.home');
+    var homeButton = document.querySelectorAll('.HomeButton');
+    homeButton[1].classList.remove('activate');
     home.classList.remove('active');
 }
 function showHome(){
     var home = document.querySelector('.home');
+    
     home.classList.add('active');
 }
 
@@ -771,6 +823,8 @@ function menu(){
 
 function hideMenu(){
     var menu = document.querySelector('.menu');
+    var menuButton = document.querySelector('.MenuButton');
+    menuButton.classList.remove('activate');
     menu.classList.remove('active');
 }
 function showMenu(){
@@ -782,13 +836,13 @@ function showMenu(){
 
 /***/ }),
 
-/***/ "./src/assets/home.jpg":
-/*!*****************************!*\
-  !*** ./src/assets/home.jpg ***!
-  \*****************************/
+/***/ "./src/assets/home1.jpg":
+/*!******************************!*\
+  !*** ./src/assets/home1.jpg ***!
+  \******************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "home.jpg";
+module.exports = __webpack_require__.p + "home1.jpg";
 
 /***/ })
 
@@ -936,6 +990,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.css */ "./src/styles/main.css");
 /* harmony import */ var _pages_home_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./pages/home-page */ "./src/pages/home-page.js");
 /* harmony import */ var _pages_menu_page__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/menu-page */ "./src/pages/menu-page.js");
+/* harmony import */ var _pages_contact_page__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/contact-page */ "./src/pages/contact-page.js");
+
 
 
 
@@ -949,6 +1005,8 @@ const website = (()=>{
         nav.classList.add('nav');
         var logo = document.createElement('p');
         logo.classList.add('logo')
+        logo.classList.add('HomeButton')
+
         logo.textContent = "Odin's Inn"
 
         var list = document.createElement('ul');
@@ -958,7 +1016,7 @@ const website = (()=>{
         for (let i = 0; i < 3; i++) {
             let line = document.createElement('li');
             let button =  document.createElement('button');
-            button.classList.add(links[i])
+            button.classList.add(`${links[i]}Button`)
             let text = document.createTextNode(links[i]);
             button.appendChild(text);
             line.appendChild(button);
@@ -974,26 +1032,59 @@ const website = (()=>{
         content.appendChild(nav);
         
     }
+    function addEvents(){
+        var homeButton = document.querySelectorAll('.HomeButton');
+
+        var menuButton = document.querySelectorAll('.MenuButton');
+        var aboutButton = document.querySelector('.AboutButton');
+        homeButton[1].classList.add('activate')
+        
+        homeButton.forEach(button => button.addEventListener('click',manageTabs));
+        menuButton.forEach(button => button.addEventListener('click',manageTabs));
+        aboutButton.addEventListener('click',manageTabs);
+
+        
+    
+    }
 
     function initializeWebsite(){
 
         addNav()
-    
+        content.appendChild((0,_pages_contact_page__WEBPACK_IMPORTED_MODULE_3__.about)());
+        content.appendChild((0,_pages_menu_page__WEBPACK_IMPORTED_MODULE_2__.menu)());
         content.appendChild((0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.home)());
-
-        //showHome();
-        content.appendChild((0,_pages_menu_page__WEBPACK_IMPORTED_MODULE_2__.menu)())
-        ;(0,_pages_menu_page__WEBPACK_IMPORTED_MODULE_2__.showMenu)()
+        (0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.showHome)();
+        addEvents();
     }
 
     initializeWebsite();
 
-    
+    function manageTabs(e){
+        (0,_pages_contact_page__WEBPACK_IMPORTED_MODULE_3__.hideAbout)()
+        ;(0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.hideHome)()
+        ;(0,_pages_menu_page__WEBPACK_IMPORTED_MODULE_2__.hideMenu)();
 
+        if(e.target.classList.contains('HomeButton')){
+            var homeButton = document.querySelectorAll('.HomeButton');
+            homeButton[1].classList.add('activate');
+            (0,_pages_home_page__WEBPACK_IMPORTED_MODULE_1__.showHome)();
+        }
+        else if(e.target.classList.contains('MenuButton')){
+            var menuButton = document.querySelectorAll('.MenuButton');
+            menuButton[0].classList.add('activate');
+            (0,_pages_menu_page__WEBPACK_IMPORTED_MODULE_2__.showMenu)();
+        }
+        else if(e.target.classList.contains('AboutButton')){
+            (0,_pages_contact_page__WEBPACK_IMPORTED_MODULE_3__.showAbout)();
+            e.target.classList.add('activate');
+        }
+    }
+    
+   
 })();
 
 })();
 
 /******/ })()
 ;
-//# sourceMappingURL=bundlec6320f7991fa0b70a669.js.map
+//# sourceMappingURL=bundle8283e3308d7404b6757d.js.map
