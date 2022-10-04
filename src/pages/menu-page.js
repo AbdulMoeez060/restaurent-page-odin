@@ -89,12 +89,17 @@ function menu(){
 
     for (let i = 0; i < menuItems.length; i++) {
         
-        let category = document.createElement('h3');
+        let category = document.createElement('div');
         category.classList.add('category');
-        category.textContent = menuItems[i].category;
+        let text = document.createElement('h2');
+        text.textContent = menuItems[i].category;
+        category.appendChild(text);
 
 
         for (let j = 0; j <  menuItems[i].items.length; j++) {
+
+            let item = document.createElement('div');
+            item.classList.add('item');
             
             let name =  document.createElement('h4');
             name.textContent = menuItems[i].items[j].name;
@@ -109,9 +114,10 @@ function menu(){
             price.textContent = menuItems[i].items[j].price;
             price.classList.add('item-price');
 
-            category.appendChild(name);
-            category.appendChild(des);
-            category.appendChild(price);
+            item.appendChild(name);
+            item.appendChild(des);
+            item.appendChild(price);
+            category.appendChild(item)
 
         }
 
