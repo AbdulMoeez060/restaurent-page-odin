@@ -1,1 +1,1 @@
-# restaurent-page-odin
+# Simple Restaurent Page
